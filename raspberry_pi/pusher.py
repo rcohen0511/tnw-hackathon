@@ -43,7 +43,8 @@ while True:
         # Prints the weight. Comment if you're debbuging the MSB and LSB issue.
         val = hx.get_weight(5)
         print val
-
+        #TODO replace with push to tnw chris stdlib
+        
         hx.power_down()
         hx.power_up()
         time.sleep(0.5)
